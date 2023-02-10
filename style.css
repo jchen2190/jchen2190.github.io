@@ -6,21 +6,22 @@
 
 body {
     background-color: var(--floral);
-}
-
-.header_logo {
-    display: inline-flex;
-}
-
-.header_logo img {
-    width: 50px;
-    height: 50px;
+    font-family: sans-serif;
 }
 
 header {
     background-color: var(--white);
 }
 
-nav ul {
-    list-style-type: none;
+.navbar-nav a {
+    font-size: 1.2rem;
+    /* color: red; */
+}
+
+main {
+    margin-top: 150px;
+    padding: 20px auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
