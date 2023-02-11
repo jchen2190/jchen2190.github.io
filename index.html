@@ -7,114 +7,167 @@
     <link rel="icon" href="image/favicon/favicon.svg" sizes="any" type="image/svg+xml">
     <meta name="author" content="Jonathan Chen">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script async src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbarNavAltMarkup">
     <header>
         <nav class="navbar fixed-top navbar-expand-md bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="image/favicon/favicon.svg" width="50" height="50" alt="Jon Chen logo image"/>Jon</a>
+
+                <a class="navbar-brand" href="#"><img src="image/favicon/favicon.svg" width="50" height="50" alt="Jon Chen logo image"/> Jon Chen</a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse justify-content-end navbar-collapse" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav ">
-                      <li class="nav-item ms-auto"><a class="nav-link" aria-current="page" href="#">Home</a></li>
+                    <ul class="navbar-nav" role="tablist">
                       <li class="nav-item ms-auto"><a class="nav-link" href="./#about">About</a></li>
                       <li class="nav-item ms-auto"><a class="nav-link" href="./#experience">Experience</a></li>
                       <li class="nav-item ms-auto"><a class="nav-link" href="./#projects">Projects</a></li>
                       <li class="nav-item ms-auto"><a class="nav-link" href="./#contact">Contact</a></li>
                     </ul>
                 </div>
+                
             </div>
         </nav>
     </header>
 
     <main>
-        <section>
+
+        <section id="introduction">
             <h1>Hey, I'm Jonathan Chen</h1>
-            <p></p>
+            <h2></h2>
+            <p>Software Engineer</p>
         </section>
+
         <section id="about">
             <div>
                 <h2>About Me</h2>
-                <span></span>
+                <p>Hi. </p>>
             </div>
-            <div>
-                <h2>My Skills</h2>
-                <h3>Front End</h3>
-                <div class="container text-center">
-                    <div class="row justify-content-center">
-                        <div class="col">
-                            <img src="image/logo/html.svg" width="40" height="40"/>
-                            <label>HTML</label>
-                        </div>
-                        <div class="col">
-                            <img src="image/logo/css.svg" width="40" height="40"/>
-                            <label>CSS</label>
-                        </div>
-                        <div class="col">
-                            <img src="image/logo/javascript.svg" width="40" height="40"/>
-                            <label>JavaScript</label>
-                        </div>
-                        <div class="col">
-                            <img src="image/logo/bootstrap-5.svg" width="40" height="40"/>
-                            <label>Bootstrap</label>
-                        </div>
-                        <div class="col">
-                            <img src="image/logo/gsap-greensock.svg" width="40" height="40"/>
-                            <label>GreenSock</label>
-                        </div>
-                        <!-- <div class="col">
-                            <img/>
-                            <label>Splide</label>
-                        </div> -->
+        </section>
+
+        <section class="skills">
+            <h2>My Skills</h2>
+            <h3>Front End</h3>
+            <div class="container text-center">
+                <div class="row justify-content-left">
+                    <div class="col">
+                        <img src="image/logo/html.svg"/>
+                        <label>HTML</label>
+                    </div>
+                    <div class="col">
+                        <img src="image/logo/css.svg"/>
+                        <label>CSS</label>
+                    </div>
+                    <div class="col">
+                        <img src="image/logo/javascript.svg"/>
+                        <label>JavaScript</label>
+                    </div>
+                    <div class="col">
+                        <img src="image/logo/bootstrap-5.svg"/>
+                        <label>Bootstrap</label>
+                    </div>
+                    <div class="col">
+                        <img src="image/logo/gsap-greensock.svg"/>
+                        <label>GreenSock</label>
+                    </div>
+                    <!-- <div class="col">
+                        <img/>
+                        <label>Splide</label>
+                    </div> -->
+                    <!-- <div class="col">
+                        <img src="image/logo/react.svg" />
+                        <label>React</label>
+                    </div> -->
+                </div>
+            </div>
+
+            <h3>Back End</h3>
+            <div class="container text-center">
+                <div class="row justify-content-left">
+                    <div class="col">
+                        <!-- <img src="image/logo/nodejs.svg"/>
+                        <label>NodeJS</label> -->
+                    </div>
+                    <div class="col">
+                        <!-- <img src="image/logo/mongodb.svg"/>
+                        <label>MongoDB</label> -->
                     </div>
                 </div>
-                <h3>Back End</h3>
-                <div>
-                    <img/>
-                    <label></label>
-                </div>
-                <h3>Tools</h3>
-                <div>
-                    <img/>
-                    <label>GitHub</label>
+            </div>
+        
+            <h3>Tools</h3>
+            <div class="container text-center">
+                <div class="row justify-content-left">
+                    <div class="col">
+                        <img src="image/logo/git-bash.svg"/>
+                        <label>Git Bash</label>
+                    </div>
+                    <div class="col">
+                        <img src="image/logo/github.svg"/>
+                        <label>GitHub</label>
+                    </div>
+                    <div class="col">
+                        <img src="image/logo/visual-studio-code.svg"/>
+                        <label>VSCode</label>
+                    </div>
                 </div>
             </div>
-            
-            
         </section>
+
         <section id="experience">
             <h2>Experience</h2>
         </section>
+
         <section id="projects">
             <h2>Projects</h2>
         </section>
-        <section id="#contact">
+
+        <section id="contact">
             <h2>Contact</h2>
             <p></p>
-            <form></form>
+            <div class="contact_container">
+                <form class="contact_form" method="post">
+                    <div class="mb-3">
+                        <label class="form-label" for="name">Name</label>
+                        <input class="form-control" id="name" name="name" type="text" required placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="email">Email</label>
+                        <input class="form-control" id="email" name="email" type="email" required placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button class="btn btn-warning btn-lg"  type="submit" value="Send">Submit</button>
+                </form>
+            </div>
         </section>
-
-        
     </main>
+    
     <footer>
         <div class="footer-contain">
             <!-- <a id="profile-link" href="https://www.freecodecamp.org/jchen" target="_blank" rel="noopener nofollow">
                 <img src="" alt="freecodecamp logo"> FreeCodeCamp
             </a> -->
-            <a class="" href="https://github.com/jchen2190" target="_blank" rel="noopener noreferrer nofollow">
+            <a class="" href="https://github.com/jchen2190" target="_blank" rel="noopener noreferrer">
                 <img src="image/logo/github.svg" width="20" alt="github logo"> GitHub
             </a>
-            <a class="" href="https://www.linkedin.com/in/jonchen21" target="_blank" rel="noopener noreferrer nofollow">
+            <a class="" href="https://www.linkedin.com/in/jonchen21" target="_blank" rel="noopener noreferrer">
                 <img src="image/logo/linkedin.svg" width="20" alt="linkedin logo"> LinkedIn
             </a>
             <a class="" href="mailto:jchen2190@gmail.com">
                 <img src="image/logo/mail.svg" width="20" alt="email @ sign"> Email Me
             </a>    
         </div>
-        <p>&copy; Copyright 2023. Jon Chen</p>
+        <p>© 2023 Jon Chen. All rights reserved.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
