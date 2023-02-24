@@ -78,11 +78,11 @@ main {
 }
 
 section {
-    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 #introduction {
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -95,6 +95,7 @@ section {
 #introduction h1 {
     font-size: 3em;
     font-weight: 900;
+    padding-top: 150px;
     /* text-transform: uppercase; */
 }
 
@@ -102,6 +103,29 @@ section {
     color: var(--maroon);
     font-size: 3em;
     font-weight: 900;
+    text-align: center;
+}
+
+#introduction div {
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  width: 40%;
+}
+
+#introduction hr {
+  border-top: 2px solid var(--maroon);
+  margin-top: 30px;
+  width: 100%;
+}
+
+#introduction img{
+  width: 60px;
+  height: 60px;
+}
+
+#about {
+  padding-top: 150px;
 }
 
 .title {
@@ -123,7 +147,8 @@ section h1, section h2, section h3 {
     display: flex;
     justify-content: flex-start;
     padding: 5px;
-    border-bottom: solid  2px var(--maroon)
+    border-bottom: solid  2px var(--maroon);
+    margin: 10px;
 }
 
 .row {
