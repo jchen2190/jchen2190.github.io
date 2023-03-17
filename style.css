@@ -1,45 +1,40 @@
 :root{
     --white: #ffffff;
     --whitesmoke: #f5f5f5;
-    --floral: #fffaf0;
     --beige: #faebd7;
     --blue: #0047AB;
     --blue-dark: #00008B;
     --blue-light: #55c2da;
-    --teal: #008080;
-    --red: #d90429;
-    --orange: #ff6200;
+    --floral: #f7f4f2;
+    --gold: #FFD700;
+    --grey-lt: #edf2f4;
     --maroon: #881C1C;
     --maroon-dk: #800000;
-    --grey-lt: #edf2f4;
+    --orange: #ff6200;
+    --red: #d90429;
+    --teal: #008080;
 }
 
 *, *:before, *:after {
     box-sizing: border-box;
-  }
+}
 
 html, body {
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* html {
-  background-color: vare;
-} */
-
 body {
     /* background-color: #e9f0f5; */
-    /* background-color: var(--white); */
+    background-color: var(--floral);
     padding: 0 20px;
     max-width: 1500px;
     margin: 0 auto;
-    
 }
 
 .navbar {
     padding: 10px 20px;
     box-shadow: 0px 5px 25px #00000025;
-    
 }
 
 .navbar-brand {
@@ -54,7 +49,6 @@ body {
 .navbar-nav a {
     font-size: 1.2rem;
     font-weight: 600;
-    /* text-transform: uppercase; */
 }
 
 .active {
@@ -71,7 +65,6 @@ body {
 main {
     margin: 150px auto;
     max-width: 70rem;
-    /* padding: 20px auto; */
     display: block;
     justify-content: center;
     align-items: center;
@@ -85,18 +78,13 @@ section {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    /* align-content: flex-end; */
-    /* text-align: left; */
-    /* padding: 0px auto; */
 }
 
 #introduction h1 {
     font-size: 3em;
     font-weight: 900;
     padding-top: 150px;
-    /* text-transform: uppercase; */
 }
 
 #introduction h2 {
@@ -114,7 +102,8 @@ section {
 }
 
 #introduction hr {
-  border-top: 2px solid var(--maroon);
+  border-top: 1px solid;
+  opacity: .8;
   margin-top: 30px;
   width: 100%;
 }
@@ -135,7 +124,7 @@ section {
 }
 
 section h1, section h2, section h3 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .skills h2 {
@@ -144,102 +133,34 @@ section h1, section h2, section h3 {
 }
 
 .skills h3 {
-    display: flex;
-    justify-content: flex-start;
-    padding: 5px;
-    border-bottom: solid  2px var(--maroon);
-    margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  border-bottom: solid  2px var(--maroon);
+  margin: 10px;
 }
 
 .row {
-    padding: 10px;
+  padding: 10px;
 }
 .col {
-    flex: 0 1;
+  flex: 0 1;
 }
 .skills img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
-/* timeline start */
-/* -------------------------------- 
-Primary style
--------------------------------- */
-/* html * {
-  -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-  *, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-} */
-
-/* body { */
-  /* font-size: 100%; */
-  /* font-family: "Droid Serif", serif; */
-  /* color: #7f8c97; */
-  /* background-color: #e9f0f5; */
-/* } */
-
-/* a { */
-  /* color: #acb7c0; */
-  /* text-decoration: none;
-  font-family: "Open Sans", sans-serif; */
-/* } */
-
-#experience img {
-  max-width: 100%;
-}
-
-/* h1, h2 { */
-  /* font-family: "Open Sans", sans-serif;
-  font-weight: bold; */
-/* } */
-
-
-/* Modules - reusable parts */
-
+/* timeline */
 .cd-container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  /* width: 90%; */
   max-width: 1170px;
   margin: 0 auto;
 }
-.cd-container::after {
-  /* clearfix */
+.cd-container::after {   /* clearfix */
   content: "";
   display: table;
   clear: both;
 }
-
-
-/* Main components  */
-
-/* header {
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  background: #303e49;
-}
-header h1 {
-  color: #ffffff;
-  font-size: 18px;
-  font-size: 1.125rem;
-} */
-
-/* @media only screen and (min-width: 1170px) {
-  header {
-    height: 300px;
-    line-height: 300px;
-  }
-  header h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
-  }
-} */
 
 #cd-timeline {
   position: relative;
@@ -247,8 +168,7 @@ header h1 {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-#cd-timeline::before {
-/* this is the vertical line */
+#cd-timeline::before { /* vertical line */
   content: "";
   position: absolute;
   top: 0;
@@ -258,10 +178,6 @@ header h1 {
   background: var(--maroon);
 }
 @media(min-width: 1170px) {
-  /* #cd-timeline {
-    margin-top: 3em;
-    margin-bottom: 3em;
-  } */
   #cd-timeline::before {
     left: 50%;
     margin-left: -2px;
@@ -284,7 +200,6 @@ header h1 {
 .cd-timeline-block:last-child {
   margin-bottom: 0;
 }
-
 
 @media(min-width: 1170px) {
   .cd-timeline-block {
@@ -329,7 +244,10 @@ header h1 {
 .cd-timeline-img.cd-uni {
   background: var(--maroon);
 }
-.cd-timeline-img.cd-uni img, .cd-timeline-img.cd-work img {
+.cd-timeline-img.cd-hourglass {
+  background: var(--blue-dark);
+}
+.cd-timeline-img.cd-uni img, .cd-timeline-img.cd-work img, .cd-timeline-img.cd-hourglass img {
   filter: invert(100%);
 }
 
@@ -458,13 +376,9 @@ header h1 {
   border-right: 7px solid #ffffff;
 }
 @media only screen and (min-width: 768px) {
-  /* .cd-timeline-content h2 {
-    font-size: 20px;
-    font-size: 1.25rem;
-  } */
-.cd-timeline-block {
-  font-size: 1rem;
-}
+  .cd-timeline-block {
+    font-size: 1rem;
+  }
 
   .cd-timeline-content p {
     font-size: 16px;
@@ -639,15 +553,14 @@ header h1 {
 }
 /* timeline end */
 
-
 #projects {
-    height: 60vh; /* testing nav */
+    height: 60vh; /* temp fill */
 }
 #contact {
     background-color: var(--white);
     border-radius: 10px;
     font-weight: bold;
-    padding: 0;
+    padding-top: 50px;
 }
 
 .contact_form input, .contact_form textarea {
@@ -701,6 +614,12 @@ footer p {
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+
+@media (max-height: 630px) {
+  .down-arrow {
+    visibility: hidden;
+  }
 }
 
 @media (min-width: 768px) {

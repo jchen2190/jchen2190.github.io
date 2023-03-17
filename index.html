@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonathan Chen | Dev</title>
     <meta name="author" content="Jonathan Chen">
-    <!-- <meta name="description" content="portfolio website"> -->
+    <meta name="description" content="portfolio website">
     <link rel="icon" href="image/favicon/favicon.svg" sizes="any" type="image/svg+xml">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> <!-- timeline -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script> <!-- timeline -->
-    <script async src="script.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbarNav">
@@ -46,7 +47,7 @@
             <h1>Hey, I'm &nbsp</h1>
             <h2>Jonathan Chen</h2>
             <h3>Software Developer</h3>
-            <div>
+            <div class="down-arrow">
                 <hr>
                 <a href="#about"><img src="image/down-arrow-circle.svg"/></a>
                 <hr>
@@ -57,7 +58,11 @@
         <section id="about">
             <div>
                 <h2 class="title">About Me</h2>
-                <p>I am an experienced civil engineer with 10 years of experience in overseeing construction projects to ensure compliance with building codes, plans, and specifications. Proficient in identifying and resolving issues, leading teams, and delivering projects on time and within budget. Seeking a software engineering role to leverage my technical knowledge and problem-solving skills.</p>
+                <div>
+                    <img> <!-- TODO: add profile picture -->
+                    <p>I am an experienced civil engineer with 10 years of experience in overseeing construction projects to ensure compliance with building codes, plans, and specifications. Proficient in identifying and resolving issues, leading teams, and delivering projects on time and within budget. Seeking a software engineering role to leverage my technical knowledge and problem-solving skills.</p>
+                </div>
+                
                 <img/>
             </div>
         </section>
@@ -101,23 +106,27 @@
             <h3>Back End</h3>
             <div class="container text-center">
                 <div class="row justify-content-left">
-                    <div class="col">
-                        <!-- <img src="image/logo/python.svg" alt="python logo"/>
-                        <label>Python</label> -->
-                    </div>
-                    <div class="col">
-                        <!-- <img src="image/logo/nodejs.svg" alt="nodejs logo"/>
-                        <label>NodeJS</label> -->
-                    </div>
-                    <div class="col">
-                        <!-- <img src="image/logo/mongodb.svg" alt="mongodb logo"/>
-                        <label>MongoDB</label> -->
-                    </div>
+                    <!-- <div class="col">
+                        <img src="image/logo/javascript.svg" alt="js logo"/>
+                        <label>JavaScript</label>
+                    </div> -->
+                    <!-- <div class="col">
+                        <img src="image/logo/python.svg" alt="python logo"/>
+                        <label>Python</label>
+                    </div> -->
+                    <!-- <div class="col">
+                        <img src="image/logo/nodejs.svg" alt="nodejs logo"/>
+                        <label>NodeJS</label>
+                    </div> -->
+                    <!-- <div class="col">
+                        <img src="image/logo/mongodb.svg" alt="mongodb logo"/>
+                        <label>MongoDB</label>
+                    </div> -->
                 </div>
             </div>
         
             <h3>Tools</h3>
-            <div class="container text-center b-3">
+            <div class="container text-center">
                 <div class="row justify-content-left">
                     <div class="col">
                         <img src="image/logo/git-bash.svg" alt="gitbash logo"/>
@@ -148,13 +157,13 @@
                         <h2>Noble Desktop</h2>
                         <h3>Software Developer</h3>
                         <ul>
-                            <!-- <li>Completed a comprehensive software engineering bootcamp that covered topics such as programming languages (Java, Python, C++), data structures and algorithms, web development, and database systems.</li> -->
+                            <!-- <li>Completed a comprehensive software engineering bootcamp that covered topics such as programming languages (Javascript & Python), data structures and algorithms, web development, and database systems.</li> -->
                             <li>Participated in group projects that emphasized teamwork and problem-solving skills.</li>
                             <li>Gained hands-on experience in developing software applications using modern development methodologies and tools.</li>
                             <li>Improved technical skills and knowledge through coursework, projects, and collaboration with peers and instructors.</li>
                         </ul>
                         
-                        <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                        <!-- <a href="#0" class="cd-read-more">See more</a> -->
                         <span class="cd-date">Feb 2023 - Present</span>
                     </div>
                 </div>
@@ -182,12 +191,12 @@
         
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-uni">
-                        <img src="image/education-cap.svg" alt="grad cap"/>
+                        <img src="image/education-cap.svg" alt="graduation cap"/>
                     </div>
         
                     <div class="cd-timeline-content">
                         <h2>University of Massachusetts</h2>
-                        <h3>Student</h3>
+                        <h3>Civil Engineer Student</h3>
                         <ul>
                             <li>Completed a 4-year program in Civil Engineering with a focus on designing and constructing buildings, infrastructure, and transportation systems.</li>
                             <li>Acquired in-depth knowledge of engineering principles, mathematics, materials science, and computer-aided design.</li>
@@ -199,30 +208,12 @@
                     </div>
                 </div>
         
-                <!-- <div class="cd-timeline-block">
-                    <div class="cd-timeline-img cd-location">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.svg" alt="Location">
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-hourglass">
+                        <img src="image/hourglass.svg" alt="hourglass"/>
                     </div>
-        
-                    <div class="cd-timeline-content">
-                        <h2>Title of section 4</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-                        <a href="#" class="cd-read-more">Read more</a>
-                        <span class="cd-date">Feb 14</span>
-                    </div>
-                </div> -->
-        
-                <!-- <div class="cd-timeline-block">
-                    <div class="cd-timeline-img cd-movie">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-movie.svg" alt="Movie">
-                    </div>
-        
-                    <div class="cd-timeline-content">
-                        <h2>Final Section</h2>
-                        <p>This is the content of the last section</p>
-                        <span class="cd-date">Feb 26</span>
-                    </div>
-                </div> -->
+                    <div class="cd-timeline-content" style="visibility:hidden"></div>
+                </div>
             </section>
         </section>
 
@@ -234,7 +225,7 @@
             <h2 class="title">Contact</h2>
             <p></p>
             <div class="contact_container">
-                <form class="contact_form" method="post">
+                <form class="contact_form p-3" method="post">
                     <div class="mb-4">
                         <label class="form-label" for="name">Name</label>
                         <input class="form-control" id="name" name="name" type="text" required placeholder="Your Name">
@@ -258,19 +249,17 @@
             <!-- <a id="profile-link" href="https://www.freecodecamp.org/jchen" target="_blank" rel="noopener nofollow">
                 <img src="" alt="freecodecamp logo"> FreeCodeCamp
             </a> -->
-            <a class="" href="https://github.com/jchen2190" target="_blank" rel="noopener noreferrer">
-                <img src="image/logo/github.svg" width="20" alt="github logo"> GitHub
+            <a class="social" href="https://github.com/jchen2190" target="_blank" rel="noopener noreferrer">
+                <img src="image/logo/github.svg" width="20" alt="github logo">GitHub
             </a>
-            <a class="" href="https://www.linkedin.com/in/jonchen21" target="_blank" rel="noopener noreferrer">
-                <img src="image/logo/linkedin.svg" width="20" alt="linkedin logo"> LinkedIn
+            <a class="social" href="https://www.linkedin.com/in/jonchen21" target="_blank" rel="noopener noreferrer">
+                <img src="image/logo/linkedin.svg" width="20" alt="linkedin logo">LinkedIn
             </a>
-            <a class="" href="mailto:jchen2190@gmail.com">
-                <img src="image/logo/mail.svg" width="20" alt="email logo"> Email Me
+            <a class="social" href="mailto:jchen2190@gmail.com">
+                <img src="image/logo/mail.svg" width="20" alt="email logo">Email Me
             </a>    
         </div>
         <p>© 2023 Jon Chen. All rights reserved.</p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
