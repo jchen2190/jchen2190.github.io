@@ -29,3 +29,8 @@ jQuery(document).ready(function($){
 //     let email = 'jchen2190@gmail.com';
 //     window.location.href = 'mailto:' + email + '?subject=' + subject + '&body=' + body;
 // });
+
+const date = new Date();
+const yr = date.getFullYear();
+const copyright = document.getElementById("copyright");
+copyright.textContent = `© 2023-${yr} Jon Chen.`
