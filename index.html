@@ -107,13 +107,13 @@
                         <img src="image/logo/nodejs.svg" alt="nodejs logo"/>
                         <label>NodeJS</label>
                     </div>
+                    <div class="col">
+                        <img src="image/logo/mongodb.svg" alt="mongodb logo"/>
+                        <label>MongoDB</label>
+                    </div>
                     <!-- <div class="col">
                         <img src="image/logo/python.svg" alt="python logo"/>
                         <label>Python</label>
-                    </div> -->
-                    <!-- <div class="col">
-                        <img src="image/logo/mongodb.svg" alt="mongodb logo"/>
-                        <label>MongoDB</label>
                     </div> -->
                 </div>
             </div>
@@ -222,7 +222,7 @@
             <h2 class="title">Contact Me</h2>
             <p></p>
             <div class="contact_container">
-                <form class="contact_form p-3" method="post">
+                <form class="contact_form p-3" action="mailto:jchen2190@gmail.com" method="post" enctype="type/plain">
                     <div class="mb-4">
                         <label class="form-label" for="name">Name</label>
                         <input class="form-control" id="name" name="name" type="text" required placeholder="Your Name">
@@ -235,7 +235,7 @@
                         <label for="message">Message</label>
                         <textarea class="form-control" rows="5" id="message" name="message" required placeholder="Your Message"></textarea>
                     </div>
-                    <button class="btn btn-lg btn-warning disabled" id="form-button" type="submit" value="Send">Disabled</button>
+                    <button class="btn btn-lg btn-warning" id="form-button" type="submit" value="Send">Submit</button>
                 </form>
             </div>
         </section>
@@ -254,7 +254,7 @@
             </a>
             <a class="social" href="mailto:jchen2190@gmail.com">
                 <img src="image/logo/mail.svg" width="20" alt="email logo">Email Me
-            </a>    
+            </a>
         </div>
         <p id="copyright">© 2023 Jon Chen.</p>
     </footer>
