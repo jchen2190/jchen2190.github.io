@@ -1,6 +1,6 @@
-$(document).ready(function(){
-    $(this).scrollTop(0);
-});
+// $(document).ready(function(){
+//     $(this).scrollTop(0);
+// });
 
 jQuery(document).ready(function($){
 	var $timeline_block = $('.cd-timeline-block');
@@ -21,14 +21,6 @@ jQuery(document).ready(function($){
 		});
 	});
 });
-
-// send mail from contact form
-// document.querySelector('#form-button').addEventListener('click', function() {
-//     let subject = encodeURIComponent('Message from Bootstrap Button');
-//     let body = encodeURIComponent('This is a message sent from a Bootstrap button.');
-//     let email = 'jchen2190@gmail.com';
-//     window.location.href = 'mailto:' + email + '?subject=' + subject + '&body=' + body;
-// });
 
 const date = new Date();
 const yr = date.getFullYear();
