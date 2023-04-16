@@ -28,7 +28,7 @@ function Experience() {
         
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-work">
-                        <img src="image/icons/work-case-filled.svg" alt="briefcase">
+                        <img src="image/icons/work-case-filled.svg" alt="briefcase" />
                     </div>
         
                     <div class="cd-timeline-content">
@@ -49,7 +49,7 @@ function Experience() {
         
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-uni">
-                        <img src="image/icons/education-cap.svg" alt="graduation cap"/>
+                        <img src="image/icons/education-cap.svg" alt="graduation cap" />
                     </div>
         
                     <div class="cd-timeline-content">
@@ -68,7 +68,7 @@ function Experience() {
         
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-hourglass">
-                        <img src="image/icons/hourglass.svg" alt="hourglass"/>
+                        <img src="image/icons/hourglass.svg" alt="hourglass" />
                     </div>
                     <div class="cd-timeline-content" style="visibility:hidden"></div>
                 </div>

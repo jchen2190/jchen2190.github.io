@@ -1,11 +1,12 @@
 import React from 'react';
-import './public/bootstrap/bootstrap.min.css';
-import Nav from './nav';
-import Introduction from './introduction'
-import About from './about';
-import Experience from './experience';
-import Contact from './contact';
-import Footer from './footer';
+import './bootstrap/bootstrap.min.css';
+import Nav from './components/nav';
+import Introduction from './components/introduction'
+import About from './components/about';
+import Skills from './components/skills';
+import Experience from './components/experience';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
   return (
