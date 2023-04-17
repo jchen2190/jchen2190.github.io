@@ -1,17 +1,19 @@
 import React from 'react';
 
+
+
 function Experience() {
     return (  
         <section id="experience">
-            <h2 class="title">Experience</h2>
+            <h2 className="title">Experience</h2>
 
-            <section id="cd-timeline" class="cd-container">
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img cd-noble">
+            <section id="cd-timeline" className="cd-container">
+                <div className="cd-timeline-block">
+                    <div className="cd-timeline-img cd-noble">
                         <img src="image/icons/laptop2.svg" alt="laptop"/>
                     </div>
         
-                    <div class="cd-timeline-content">
+                    <div className="cd-timeline-content">
                         <h2>Noble Desktop</h2>
                         <h3>Software Developer</h3>
                         <ul>
@@ -21,17 +23,17 @@ function Experience() {
                             <li>Improved technical skills and knowledge through coursework, projects, and collaboration with peers and instructors.</li>
                         </ul>
                         
-                        {/* <a href="#0" class="cd-read-more">See more</a> */}
-                        <span class="cd-date">Jan 2023 - Present</span>
+                        {/* <a href="#0" className="cd-read-more">See more</a> */}
+                        <span className="cd-date">Jan 2023 - Present</span>
                     </div>
                 </div>
         
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img cd-work">
+                <div className="cd-timeline-block">
+                    <div className="cd-timeline-img cd-work">
                         <img src="image/icons/work-case-filled.svg" alt="briefcase" />
                     </div>
         
-                    <div class="cd-timeline-content">
+                    <div className="cd-timeline-content">
                         <h2>Garg Consulting Services</h2>
                         <h3>Engineer</h3>
                         <ul>
@@ -42,17 +44,17 @@ function Experience() {
                             <li>Collaborated with contractors, architects, engineers, and project managers to resolve design and construction issues and improve processes.</li>
                             <li>Maintained accurate and up-to-date records of all inspections, test results, and corrective actions, ensuring full documentation of projects.</li>
                         </ul>
-                        {/* <a href="garg.html" class="cd-read-more">Read more</a> */}
-                        <span class="cd-date">Feb 2013 - Jan 2023, 10 years</span>
+                        {/* <a href="garg.html" className="cd-read-more">Read more</a> */}
+                        <span className="cd-date">Feb 2013 - Jan 2023, 10 years</span>
                     </div>
                 </div>
         
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img cd-uni">
+                <div className="cd-timeline-block">
+                    <div className="cd-timeline-img cd-uni">
                         <img src="image/icons/education-cap.svg" alt="graduation cap" />
                     </div>
         
-                    <div class="cd-timeline-content">
+                    <div className="cd-timeline-content">
                         <h2>University of Massachusetts</h2>
                         <h3>Civil Engineer Major</h3>
                         <ul>
@@ -61,16 +63,16 @@ function Experience() {
                             <li>Completed various projects and design reports, gaining practical experience in designing and analyzing structures, such as bridges, buildings, and transportation systems.</li>
                             <li>Participated in team-based projects, collaborating with peers and instructors, to develop solutions to real-world engineering problems.</li>
                         </ul>
-                        {/* <a href="#" class="cd-read-more">Read more</a> */}
-                        <span class="cd-date">Graduated 2013</span>
+                        {/* <a href="#" className="cd-read-more">Read more</a> */}
+                        <span className="cd-date">Graduated 2013</span>
                     </div>
                 </div>
         
-                <div class="cd-timeline-block">
-                    <div class="cd-timeline-img cd-hourglass">
+                <div className="cd-timeline-block">
+                    <div className="cd-timeline-img cd-hourglass">
                         <img src="image/icons/hourglass.svg" alt="hourglass" />
                     </div>
-                    <div class="cd-timeline-content" style="visibility:hidden"></div>
+                    <div className="cd-timeline-content" style={{visibility:hidden}}></div>
                 </div>
             </section>
         </section>
