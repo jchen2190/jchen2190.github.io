@@ -21,8 +21,3 @@ jQuery(document).ready(function($){
 		});
 	});
 });
-
-const date = new Date();
-const yr = date.getFullYear();
-const copyright = document.getElementById("copyright");
-copyright.textContent = `© 2023-${yr} Jon Chen.`
