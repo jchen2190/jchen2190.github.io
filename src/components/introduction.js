@@ -1,4 +1,5 @@
 import React from 'react';
+import downArrowIcon from '../image/icons/down-arrow-circle.svg'
 
 function Introduction() {
     return (  
@@ -7,7 +8,7 @@ function Introduction() {
             <h2>Jonathan Chen</h2>
             <h3>Software Developer</h3>
             <div className="down-arrow">
-                <hr /><a href="#about"><img src="image/icons/down-arrow-circle.svg" alt="down arrow icon" /></a><hr />
+                <hr /><a href="#about"><img src={downArrowIcon} alt="down arrow icon" /></a><hr />
             </div>
         </section>
     );

@@ -1,4 +1,7 @@
 import React from 'react';
+import githubLogo from '../image/logo/github.svg';
+import linkedInLogo from '../image/logo/linkedin.svg'
+import mailLogo from '../image/logo/mail.svg'
 
 function Footer() {
     return (  
@@ -8,13 +11,13 @@ function Footer() {
                     <img src="" alt="freecodecamp logo" /> FreeCodeCamp
                 </a> */}
                 <a className="social" href="https://github.com/jchen2190" target="_blank" rel="noopener noreferrer">
-                    <img src="image/logo/github.svg" width="20" alt="github logo" />GitHub
+                    <img src={githubLogo} width="20" alt="github logo" />GitHub
                 </a>
                 <a className="social" href="https://www.linkedin.com/in/jonchen21" target="_blank" rel="noopener noreferrer">
-                    <img src="image/logo/linkedin.svg" width="20" alt="linkedin logo" />LinkedIn
+                    <img src={linkedInLogo} width="20" alt="linkedin logo" />LinkedIn
                 </a>
                 <a className="social" href="mailto:jchen2190@gmail.com">
-                    <img src="image/logo/mail.svg" width="20" alt="email logo" />Email Me
+                    <img src={mailLogo} width="20" alt="email logo" />Email Me
                 </a>
             </div>
             <p id="copyright">© 2023 Jon Chen.</p>

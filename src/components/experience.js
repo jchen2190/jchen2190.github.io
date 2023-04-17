@@ -1,6 +1,8 @@
 import React from 'react';
-
-
+import laptopIcon from '../image/icons/laptop2.svg'
+import briefcaseIcon from '../image/icons/work-case-filled.svg'
+import gradCapIcon from '../image/icons/education-cap.svg'
+import hourglassIcon from '../image/icons/hourglass.svg'
 
 function Experience() {
     return (  
@@ -10,7 +12,7 @@ function Experience() {
             <section id="cd-timeline" className="cd-container">
                 <div className="cd-timeline-block">
                     <div className="cd-timeline-img cd-noble">
-                        <img src="image/icons/laptop2.svg" alt="laptop"/>
+                        <img src={laptopIcon} alt="laptop"/>
                     </div>
         
                     <div className="cd-timeline-content">
@@ -30,7 +32,7 @@ function Experience() {
         
                 <div className="cd-timeline-block">
                     <div className="cd-timeline-img cd-work">
-                        <img src="image/icons/work-case-filled.svg" alt="briefcase" />
+                        <img src={briefcaseIcon} alt="briefcase" />
                     </div>
         
                     <div className="cd-timeline-content">
@@ -51,7 +53,7 @@ function Experience() {
         
                 <div className="cd-timeline-block">
                     <div className="cd-timeline-img cd-uni">
-                        <img src="image/icons/education-cap.svg" alt="graduation cap" />
+                        <img src={gradCapIcon} alt="graduation cap" />
                     </div>
         
                     <div className="cd-timeline-content">
@@ -70,9 +72,9 @@ function Experience() {
         
                 <div className="cd-timeline-block">
                     <div className="cd-timeline-img cd-hourglass">
-                        <img src="image/icons/hourglass.svg" alt="hourglass" />
+                        <img src={hourglassIcon} alt="hourglass" />
                     </div>
-                    <div className="cd-timeline-content" style={{visibility:hidden}}></div>
+                    <div className="cd-timeline-content" style={{visibility: 'hidden'}}></div>
                 </div>
             </section>
         </section>

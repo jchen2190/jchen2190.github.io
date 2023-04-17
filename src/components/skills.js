@@ -1,4 +1,17 @@
 import React from 'react';
+import htmlLogo from '../image/logo/html.svg';
+import cssLogo from '../image/logo/css.svg';
+import jsLogo from '../image/logo/javascript.svg';
+import bootstrapLogo from '../image/logo/bootstrap-5.svg';
+import greensockLogo from '../image/logo/gsap-greensock.svg';
+import reactLogo from '../image/logo/react.svg';
+import nodeJSLogo from '../image/logo/nodejs.svg';
+import mongoDBLogo from '../image/logo/mongodb.svg';
+// import pythonLogo from '../image/logo/python.svg';
+import gitbashLogo from '../image/logo/git-bash.svg';
+import githubLogo from '../image/logo/github.svg';
+import vsLogo from '../image/logo/visual-studio-code.svg';
+import postmanLogo from '../image/logo/postman.svg';
 
 function Skills() {
     return (  
@@ -8,27 +21,27 @@ function Skills() {
             <div class="container text-center">
                 <div class="row justify-content-left justify-content-md-center">
                     <div class="col">
-                        <img src="image/logo/html.svg" alt="html logo"/>
+                        <img src={htmlLogo} alt="html logo"/>
                         <label>HTML</label>
                     </div>
                     <div class="col">
-                        <img src="image/logo/css.svg" alt="css logo"/>
+                        <img src={cssLogo} alt="css logo"/>
                         <label>CSS</label>
                     </div>
                     <div class="col">
-                        <img src="image/logo/javascript.svg" alt="js logo"/>
+                        <img src={jsLogo} alt="js logo"/>
                         <label>JavaScript</label>
                     </div>
                     <div class="col">
-                        <img src="image/logo/bootstrap-5.svg" alt="bootstrap logo"/>
+                        <img src={bootstrapLogo} alt="bootstrap logo"/>
                         <label>Bootstrap</label>
                     </div>
                     <div class="col">
-                        <img src="image/logo/gsap-greensock.svg" alt="gsap logo"/>
+                        <img src={greensockLogo} alt="gsap logo"/>
                         <label>GreenSock</label>
                     </div>
                     <div class="col">
-                        <img src="image/logo/react.svg" alt="react logo"/>
+                        <img src={reactLogo} alt="react logo"/>
                         <label>React</label>
                     </div>
                 </div>
@@ -38,19 +51,19 @@ function Skills() {
             <div class="container text-center">
                 <div class="row justify-content-left justify-content-md-center">
                     <div class="col">
-                        <img src="image/logo/javascript.svg" alt="js logo"/>
+                        <img src={jsLogo} alt="js logo"/>
                         <label>JavaScript</label>
                     </div>
                     <div class="col">
-                        <img src="image/logo/nodejs.svg" alt="nodejs logo"/>
+                        <img src={nodeJSLogo} alt="nodejs logo"/>
                         <label>NodeJS</label>
                     </div>
                     <div class="col">
-                        <img src="image/logo/mongodb.svg" alt="mongodb logo"/>
+                        <img src={mongoDBLogo} alt="mongodb logo"/>
                         <label>MongoDB</label>
                     </div>
                     {/* <div class="col">
-                        <img src="image/logo/python.svg" alt="python logo"/>
+                        <img src={pythonLogo} alt="python logo"/>
                         <label>Python</label>
                     </div> */}
                 </div>
@@ -60,19 +73,19 @@ function Skills() {
             <div class="container text-center">
                 <div class="row justify-content-left-sm justify-content-md-center">
                     <div class="col">
-                        <img src="image/logo/git-bash.svg" alt="gitbash logo"/>
+                        <img src={gitbashLogo} alt="gitbash logo"/>
                         <label>Git Bash</label>
                     </div>
                     <div class="col">
-                        <img src="image/logo/github.svg" alt="github logo"/>
+                        <img src={githubLogo} alt="github logo"/>
                         <label>GitHub</label>
                     </div>
                     <div class="col">
-                        <img src="image/logo/visual-studio-code.svg" alt="vscode logo"/>
+                        <img src={vsLogo} alt="vscode logo"/>
                         <label>VSCode</label>
                     </div>
                     <div class="col">
-                        <img src="image/logo/postman.svg" alt="postman logo"/>
+                        <img src={postmanLogo} alt="postman logo"/>
                         <label>Postman</label>
                     </div>
                 </div>
