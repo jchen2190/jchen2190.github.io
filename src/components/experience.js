@@ -74,7 +74,7 @@ function Experience() {
                     <div className="cd-timeline-img cd-hourglass">
                         <img src={hourglassIcon} alt="hourglass" />
                     </div>
-                    <div className="cd-timeline-content" style={{visibility: 'hidden'}}></div>
+                    <div className="cd-timeline-content" style={{visibility: "hidden"}}></div>
                 </div>
             </section>
         </section>

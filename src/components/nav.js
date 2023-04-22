@@ -14,12 +14,10 @@ function Navigation() {
 
                 <div className="collapse justify-content-end navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item ms-auto">
-                            <a className="nav-link active" aria-current="page" href="#about">About</a>
-                            <a className="nav-link" href="#experience">Experience</a>
-                            <a className="nav-link" href="#projects">Projects</a>
-                            <a className="nav-link" href="#contact">Contact</a>
-                        </li>
+                      <li className="nav-item ms-auto"><a className="nav-link active" aria-current="page" href="#about">About</a></li>
+                      <li className="nav-item ms-auto"><a className="nav-link" href="#experience">Experience</a></li>
+                      <li className="nav-item ms-auto"><a className="nav-link" href="#projects">Projects</a></li>
+                      <li className="nav-item ms-auto"><a className="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 
