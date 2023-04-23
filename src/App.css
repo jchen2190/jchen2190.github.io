@@ -39,12 +39,11 @@ body {
   border-radius: 5px;
 }
 .navbar-nav a {
-  color: var(--maroon-dk);
   font-size: 1.2rem;
   font-weight: 600;
   border-radius: 5px;
 }
-.active, .navbar-nav a:hover, .navbar-nav a:focus {
+.navbar-nav a:hover, .navbar-nav a:focus {
   transform: scale(1.1);
   /* transition: all .4s ease-out; */
 }
