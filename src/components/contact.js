@@ -1,12 +1,15 @@
 import React from 'react';
 
 function Contact() {
+    function handleSubmit(e) {
+        e.preventDefault();
+    }
+
     return (  
         <section id="contact">
             <h2 className="title">Contact Me</h2>
-            <p></p>
             <div className="contact_container">
-                <form className="contact_form p-3" action="mailto:jchen2190@gmail.com" method="post">
+                <form onSubmit={handleSubmit} className="contact_form p-3" action="mailto:jchen2190@gmail.com" method="post">
                     <div className="mb-4">
                         <label className="form-label" htmlFor="name">Name</label>
                         <input className="form-control" id="name" name="name" type="text" required placeholder="Your Name" />

@@ -8,25 +8,25 @@ function Projects() {
             <h2 className="title">Projects</h2>
             <div className="container">
                 <div className="row m-3">
-                    <img src={project3} alt="project1 screenshot" />
+                    <a href="https://github.com/jchen2190" target="_blank" rel="noopener noreferrer"><img src={project3} alt="project1 screenshot" /></a>
                     <div className="col-xs-1 col-sm">
                         <h4>Project 1</h4>
                         <p>This is the first project information</p>
                     </div>
                 </div>
                 <div className="row m-3">
-                    <img src={project3} alt="project2 screenshot" />
+                    <a href="https://github.com/jchen2190" target="_blank" rel="noopener noreferrer"><img src={project3} alt="project2 screenshot" /></a>
                     <div className="col-xs-1 col-sm">
                         <h4>Project 2</h4>
                         <p>This is the second project information</p>
                     </div>
                 </div>
                 <div className="row m-3">
-                    <img src={project3} alt="project3 screenshot" />
-                    <div className="col-xs-1 col-sm">
+                    <a href="https://weatherapp-2dyu.onrender.com" target="_blank" rel="noopener noreferrer"><img src={project3} alt="project3 screenshot" /></a>
+                    <div className="col-xs-1 col-sm p-3">
                         <h4>WeatherApp</h4>
-                        <p>Built a weather app that takes in a name of a city and returns the weather forecast of the location.</p>
-                        <p>Javascript, EJS</p>
+                        <p>Built a weather app that takes in a name of a city and returns the weather forecast and variables of the city location.</p>
+                        <p>Javascript, EJS, Node.JS</p>
                         <a href="https://github.com/jchen2190/weatherAPI" target="_blank" rel="noopener noreferrer"><img src={githubLogo} width="20" alt="github logo" /></a>
                     </div>
                 </div>

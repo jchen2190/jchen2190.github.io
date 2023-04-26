@@ -19,7 +19,7 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-body {
+header, main {
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: var(--white);
@@ -55,7 +55,7 @@ main {
   align-items: center;
 }
 section {
-  padding-bottom: 150px;
+  padding-top: 150px;
 }
 #introduction {
   height: 100vh;
@@ -518,6 +518,11 @@ section h1, section h2, section h3 {
   }
 } /* timeline end */
 
+#projects a {
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
 #projects img {
   max-width: 300px;
   height: auto;
