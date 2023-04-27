@@ -6,8 +6,10 @@ import jsLogo from '../image/logo/javascript.svg';
 import bootstrapLogo from '../image/logo/bootstrap-5.svg';
 import greensockLogo from '../image/logo/gsap-greensock.svg';
 import reactLogo from '../image/logo/react.svg';
+import jqueryLogo from "../image/logo/jquery.svg"
 
 import nodeJSLogo from '../image/logo/nodejs.svg';
+import npmLogo from '../image/logo/npm.svg';
 import mongoDBLogo from '../image/logo/mongodb.svg';
 import renderLogo from '../image/logo/render.png';
 // import pythonLogo from '../image/logo/python.svg';
@@ -24,11 +26,13 @@ function Skills() {
         { id: "javascript", name: "Javascript", image: jsLogo },
         { id: "bootstrap", name: "Bootstrap", image: bootstrapLogo },
         { id: "greensock", name: "GreenSock", image: greensockLogo },
-        { id: "react", name: "React", image: reactLogo }
+        { id: "react", name: "React", image: reactLogo },
+        { id: "jquery", name: "JQuery", image: jqueryLogo}
     ]
     const Backend = [
         { id: "javascript", name: "Javascript", image: jsLogo },
         { id: "nodejs", name: "Node.JS", image: nodeJSLogo },
+        { id: "npm", name: "npm", image: npmLogo},
         { id: "mongodb", name: "MongoDB", image: mongoDBLogo },
         { id: "render", name: "Render", image: renderLogo}
     ]
@@ -41,7 +45,7 @@ function Skills() {
 
     return (  
         <section className="skills">
-            <h2>My Skills</h2>
+            <h2 className="title">My Skills</h2>
             <h3 className="justify-content-md-center">Front End</h3>
             <div className="container text-center">
                 <div className="row justify-content-left justify-content-md-center">

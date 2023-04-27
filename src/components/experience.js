@@ -19,7 +19,7 @@ function Experience() {
                         <h2>Noble Desktop</h2>
                         <h3>Software Developer</h3>
                         <ul>
-                            {/* <li>Completed a comprehensive software engineering bootcamp that covered topics such as programming languages (Javascript & Python), data structures and algorithms, web development, and database systems.</li> */}
+                            <li>Completed a comprehensive software engineering bootcamp that covered topics such as programming languages (Javascript & Python), data structures and algorithms, web development, and database systems.</li>
                             <li>Participated in group projects that emphasized teamwork and problem-solving skills.</li>
                             <li>Gained hands-on experience in developing software applications using modern development methodologies and tools.</li>
                             <li>Improved technical skills and knowledge through coursework, projects, and collaboration with peers and instructors.</li>
