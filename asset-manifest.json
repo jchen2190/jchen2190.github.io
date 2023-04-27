@@ -1,15 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.44f8b8b5.css",
-    "main.js": "/static/js/main.e4ca9d9e.js",
+    "main.css": "/static/css/main.a2ea4ead.css",
+    "main.js": "/static/js/main.60f0818f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/weatherAPI2.png": "/static/media/weatherAPI2.39472a0e9185b2863761.png",
+    "static/media/gsap-greensock.svg": "/static/media/gsap-greensock.dff87e2debbe5d37479732018b2a575a.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
+    "static/media/favicon.svg": "/static/media/favicon.3d578a61dd1254be67b94c7d73595f24.svg",
+    "static/media/postman.svg": "/static/media/postman.e65afafee644ce9fe8a727d01b403189.svg",
+    "static/media/mail.svg": "/static/media/mail.c4e2250b999fbdc00ce8259dbbf648a8.svg",
+    "static/media/react.svg": "/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
     "index.html": "/index.html",
-    "main.44f8b8b5.css.map": "/static/css/main.44f8b8b5.css.map",
-    "main.e4ca9d9e.js.map": "/static/js/main.e4ca9d9e.js.map",
+    "static/media/work-case-filled.svg": "/static/media/work-case-filled.4b9629ce331eff614a371a856843dd52.svg",
+    "static/media/github.svg": "/static/media/github.b40b1c0378274f892133dea1253e8aa8.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.1aca075d5cce0819fea7ea0902d94ce4.svg",
+    "static/media/down-arrow-circle.svg": "/static/media/down-arrow-circle.9f726bb992d6b62e2c95f978f81e213a.svg",
+    "static/media/laptop2.svg": "/static/media/laptop2.1c57094803377cc00ad58ee16174b3a3.svg",
+    "static/media/bootstrap-5.svg": "/static/media/bootstrap-5.98585727bcfe0b1555649ec9bbab236c.svg",
+    "static/media/hourglass.svg": "/static/media/hourglass.da2f7f5fd259bba3173ec4e5d2bd0085.svg",
+    "static/media/git-bash.svg": "/static/media/git-bash.b3f73afb1361d47dd238f8e5e884ff06.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.32e20978a96ff60c1fdc5a8389e532ba.svg",
+    "static/media/education-cap.svg": "/static/media/education-cap.3c0197b56e5d6d0bd4677485ae5a9fa2.svg",
+    "static/media/visual-studio-code.svg": "/static/media/visual-studio-code.b8b1e001813039750e6c05c236ab0d46.svg",
+    "static/media/css.svg": "/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html.svg": "/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "static/media/javascript.svg": "/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
+    "main.a2ea4ead.css.map": "/static/css/main.a2ea4ead.css.map",
+    "main.60f0818f.js.map": "/static/js/main.60f0818f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44f8b8b5.css",
-    "static/js/main.e4ca9d9e.js"
+    "static/css/main.a2ea4ead.css",
+    "static/js/main.60f0818f.js"
   ]
 }
