@@ -579,12 +579,24 @@ footer p {
   justify-content: center;
   padding: 20px;
 }
-@media (max-height: 630px) {
+@media (max-height: 576px) {
+  #introduction{
+    padding-top: 0px;
+  }
   .down-arrow {
     visibility: hidden;
   }
 }
+@media (max-height: 1000px) {
+  main {
+    margin: 0;
+  }
+  #introduction {
+    padding-top: 50px;
+  }
+}
 @media (min-width: 768px) {
+  
   #about p {
     font-size: 1.2rem;
   }
