@@ -526,6 +526,17 @@ section h1, section h2, section h3 {
 #projects img {
   max-width: 300px;
   height: auto;
+  border-radius: 8px;
+  opacity: 80%;
+  transition: ease 1.5s;
+}
+#projects img:hover, #projects img:active{
+  opacity: 100%;
+  scale: 1.02;
+  transition: ease 1.5s;
+}
+#projects h4 {
+  font-weight: bold;
 }
 #contact {
   background-color: var(--white);
