@@ -10,15 +10,15 @@ function Contact() {
             <h2 className="title">Contact Me</h2>
             <div className="contact_container">
                 <form onSubmit={handleSubmit} className="contact_form p-3" action="mailto:jchen2190@gmail.com" method="post">
-                    <div className="mb-4">
+                    <div className="form-group mb-4">
                         <label className="form-label" htmlFor="name">Name</label>
                         <input className="form-control" id="name" name="name" type="text" required placeholder="Your Name" />
                     </div>
-                    <div className="mb-4">
+                    <div className="form-group mb-4">
                         <label className="form-label" htmlFor="email">Email</label>
                         <input className="form-control" id="email" name="email" type="email" required placeholder="Your Email" />
                     </div>
-                    <div className="mb-4">
+                    <div className="form-group mb-4">
                         <label htmlFor="message">Message</label>
                         <textarea className="form-control" rows="5" id="message" name="message" required placeholder="Your Message"></textarea>
                     </div>

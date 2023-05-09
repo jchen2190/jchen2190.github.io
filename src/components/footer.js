@@ -10,13 +10,13 @@ function Footer() {
                 {/* <a id="profile-link" href="https://www.freecodecamp.org/jchen" target="_blank" rel="noopener nofollow">
                     <img src="" alt="freecodecamp logo" /> FreeCodeCamp
                 </a> */}
-                <a className="social" href="https://github.com/jchen2190" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/jchen2190" target="_blank" rel="noopener noreferrer">
                     <img src={githubLogo} width="20" alt="github logo" />GitHub
                 </a>
-                <a className="social" href="https://www.linkedin.com/in/jonchen21" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/jonchen21" target="_blank" rel="noopener noreferrer">
                     <img src={linkedInLogo} width="20" alt="linkedin logo" />LinkedIn
                 </a>
-                <a className="social" href="mailto:jchen2190@gmail.com">
+                <a href="mailto:jchen2190@gmail.com">
                     <img src={mailLogo} width="20" alt="email logo" />Email Me
                 </a>
             </div>

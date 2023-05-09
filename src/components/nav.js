@@ -6,7 +6,7 @@ import favicon from '../image/favicon/favicon.svg';
 
 function Navigation() {
     return (  
-        <Navbar bg="light" expand="lg" fixed="top">
+        <Navbar expand="lg" fixed="top">
             <Container>
                 <Navbar.Brand href="#introduction"><img src={favicon} width="50" height="50" alt="Jon Chen logo"/>Jon Chen</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
