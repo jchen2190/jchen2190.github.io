@@ -12,7 +12,7 @@ import nodeJSLogo from '../image/logo/nodejs.svg';
 import npmLogo from '../image/logo/npm.svg';
 import mongoDBLogo from '../image/logo/mongodb.svg';
 import renderLogo from '../image/logo/render.png';
-// import pythonLogo from '../image/logo/python.svg';
+import pythonLogo from '../image/logo/python.svg';
 
 import gitbashLogo from '../image/logo/git-bash.svg';
 import githubLogo from '../image/logo/github.svg';
@@ -32,9 +32,10 @@ function Skills() {
     const Backend = [
         { id: "javascript", name: "Javascript", image: jsLogo },
         { id: "nodejs", name: "Node.JS", image: nodeJSLogo },
-        { id: "npm", name: "npm", image: npmLogo},
+        { id: "npm", name: "npm", image: npmLogo },
         { id: "mongodb", name: "MongoDB", image: mongoDBLogo },
-        { id: "render", name: "Render", image: renderLogo}
+        { id: "render", name: "Render", image: renderLogo },
+        { id: "python", name: "Python", image: pythonLogo }
     ]
     const Tools = [
         { id: "gitbash", name: "Git Bash", image: gitbashLogo },
