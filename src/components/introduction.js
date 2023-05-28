@@ -11,8 +11,8 @@ function Introduction() {
             <h3>Software Developer</h3>
 
             <div className="introLogo p-3">
-                <a href="https://github.com/jchen2190/" target="_blank" rel="noopener noreferrer"><img src={githubLogo} alt="github logo" /></a>
-                <a href="https://www.linkedin.com/in/jonchen21" target="_blank" rel="noopener noreferrer"><img src={linkedInLogo} alt="linkedin logo" /></a>
+                <a className="m-2" href="https://github.com/jchen2190/" target="_blank" rel="noopener noreferrer"><img src={githubLogo} alt="github logo" /></a>
+                <a className="m-2" href="https://www.linkedin.com/in/jonchen21" target="_blank" rel="noopener noreferrer"><img src={linkedInLogo} alt="linkedin logo" /></a>
             </div>
 
             <div className="down-arrow">

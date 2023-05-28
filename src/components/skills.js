@@ -50,7 +50,7 @@ function Skills() {
 
     return (  
         <section className="skills">
-            <h2 className="title">My Skills</h2>
+            <h2 className="title d-flex">My Skills</h2>
             <h3 className="justify-content-md-center">Front End</h3>
             <div className="container text-center">
                 <div className="row justify-content-left justify-content-md-center">

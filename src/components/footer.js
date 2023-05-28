@@ -6,7 +6,7 @@ import mailLogo from '../image/logo/mail.svg'
 function Footer() {
     return (  
         <footer>
-            <div className="footer-contain">
+            <div className="d-flex justify-content-center">
                 {/* <a id="profile-link" href="https://www.freecodecamp.org/jchen" target="_blank" rel="noopener nofollow">
                     <img src="" alt="freecodecamp logo" /> FreeCodeCamp
                 </a> */}
@@ -20,7 +20,7 @@ function Footer() {
                     <img src={mailLogo} width="20" alt="email logo" />Email Me
                 </a>
             </div>
-            <p id="copyright">© 2023 Jon Chen.</p>
+            <p className="d-flex justify-content-center p-2">© 2023 Jon Chen.</p>
         </footer>
     );
 }
