@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 function Contact() {
-
     const form = useRef()
 
     function sendEmail(e) {
@@ -20,9 +19,9 @@ function Contact() {
 
     return (  
         <section id="contact" className="py-5 mb-5">
-            <div className="container">
+            <div>
                 <h2 className="title">Contact Me</h2>
-                <form ref={form} onSubmit={sendEmail} className="contact_form p-3">
+                <form ref={form} onSubmit={sendEmail} className="contact_form m-3">
                     <div className="form-group mb-4">
                         <label className="form-label" htmlFor="name">Name</label>
                         <input className="form-control" id="name" name="name" type="text" required placeholder="Your Name" />
