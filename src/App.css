@@ -509,11 +509,12 @@ section h1, section h2, section h3 {
 } /* timeline end */
 
 .projectImg img {
-  /* max-width: 600px; */
   border: 1px solid black;
   border-radius: 10px;
   opacity: 80%;
   transition: ease 1s;
+  width: 500px;
+  max-height: 200px;
 }
 .projectImg img:hover, #projects img:active{
   opacity: 100%;
