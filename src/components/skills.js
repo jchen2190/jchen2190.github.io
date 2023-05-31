@@ -14,6 +14,7 @@ import mongoDBLogo from '../image/logo/mongodb.svg';
 import renderLogo from '../image/logo/render.png';
 import pythonLogo from '../image/logo/python.svg';
 import pandasLogo from '../image/logo/pandas.svg';
+import djangoLogo from '../image/logo/django.svg';
 
 import gitbashLogo from '../image/logo/git-bash.svg';
 import githubLogo from '../image/logo/github.svg';
@@ -29,7 +30,7 @@ function Skills() {
         { id: "bootstrap", name: "Bootstrap", image: bootstrapLogo },
         { id: "greensock", name: "GreenSock", image: greensockLogo },
         { id: "react", name: "React", image: reactLogo },
-        { id: "jquery", name: "JQuery", image: jqueryLogo}
+        { id: "jquery", name: "JQuery", image: jqueryLogo},
     ]
     const Backend = [
         { id: "javascript", name: "Javascript", image: jsLogo },
@@ -38,14 +39,15 @@ function Skills() {
         { id: "mongodb", name: "MongoDB", image: mongoDBLogo },
         { id: "render", name: "Render", image: renderLogo },
         { id: "python", name: "Python", image: pythonLogo },
-        { id: "pandas", name: "pandas", image: pandasLogo }
+        { id: "pandas", name: "pandas", image: pandasLogo },
+        { id: "django", name: "Django", image: djangoLogo },
     ]
     const Tools = [
         { id: "gitbash", name: "Git Bash", image: gitbashLogo },
         { id: "github", name: "GitHub", image: githubLogo },
         { id: "vscode", name: "VSCode", image: vsLogo },
         { id: "postman", name: "Postman", image: postmanLogo },
-        { id: "jupyter", name: "Jupyter", image: jupyterLogo }
+        { id: "jupyter", name: "Jupyter", image: jupyterLogo },
     ]
 
     return (  
