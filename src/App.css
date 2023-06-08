@@ -16,6 +16,10 @@ body {
   background-color: #F4F3F2;
   font-family: 'Source Sans Pro', sans-serif;
 }
+.content {
+  background-color: white;
+  box-shadow: 15px 0 20px -4px grey, -15px 0 20px -2px grey;
+}
 .navbar {
   background-color: var(--white);
   border-bottom: 1px solid black
@@ -39,7 +43,7 @@ body {
   color: var(--maroon);
 }
 section {
-  margin-top: 150px;
+  padding-top: 150px;
 }
 #introduction {
   height: 90vh;

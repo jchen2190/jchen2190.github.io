@@ -20,7 +20,7 @@ function Footer() {
                     <img src={mailLogo} width="20" alt="email logo" />Email Me
                 </a>
             </div>
-            <p className="d-flex justify-content-center p-2">© 2023 Jon Chen.</p>
+            <p className="d-flex justify-content-center p-2 m-0">© 2023 Jon Chen.</p>
         </footer>
     );
 }
