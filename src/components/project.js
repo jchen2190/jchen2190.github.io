@@ -8,7 +8,7 @@ import project3 from '../image/projects/weatherAPI2.png'
 function Projects() {
     return (
         <section id="projects">
-            <h2 className="title">Projects</h2>
+            <h2 className="title">Featured Projects</h2>
             <div className="container">
                 <div className="row mb-5">
                     <div className="projectImg col-lg">
