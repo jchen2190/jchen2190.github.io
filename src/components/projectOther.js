@@ -4,8 +4,30 @@ import githubLogo from '../image/logo/github.svg';
 
 function OtherProjects() {
     const projects = [
-        { id: "blackjack", name: "Blackjack", link: "https://jchen2190.github.io/blackjack/", github: "https://github.com/jchen2190/blackjack", description: "Created a dynamic and interactive Blackjack game and implemented game mechanics such as card dealing and player actions (hit, stand, double-down), and dealer logic", technologies: "JavaScript" },
-        { id: "chess", name: "Chess", link: "https://jchen2190.github.io/chess/", github: "https://github.com/jchen2190/chess", description: "Designed and implmented a fully functional Chess game using object-oriented programming principles. Developed game logic for piece movements, captures, and game state management.", technologies: "JavaScript" },
+        {
+            id: "blackjack",
+            name: "Blackjack",
+            link: "https://jchen2190.github.io/blackjack/",
+            github: "https://github.com/jchen2190/blackjack",
+            description: "Created a dynamic and interactive Blackjack game and implemented game mechanics such as card dealing and player actions (hit, stand, double-down), and dealer logic",
+            technologies: "JavaScript"
+        },
+        {
+            id: "chess",
+            name: "Chess",
+            link: "https://jchen2190.github.io/chess/",
+            github: "https://github.com/jchen2190/chess",
+            description: "Designed and implmented a fully functional Chess game using object-oriented programming principles. Developed game logic for piece movements, captures, and game state management.",
+            technologies: "JavaScript"
+        },
+        {
+            id: "beatwave",
+            name: "beatWave",
+            link: "https://jchen2190.github.io/beatWave/",
+            github: "https://github.com/jchen2190/beatWave",
+            description: "Built an application that takes a song and visualizes the waveforms of the audio as the song plays.",
+            technologies: "JavaScript, p5.js"
+        }
     ]
 
     return (
