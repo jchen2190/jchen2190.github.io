@@ -3,7 +3,8 @@ import deployIcon from '../image/icons/deploy.svg'
 import githubLogo from '../image/logo/github.svg';
 import project1 from '../image/projects/issuetracker2.png'
 import project2 from '../image/projects/spacemission2.png'
-import project3 from '../image/projects/weatherAPI2.png'
+// import project3 from '../image/projects/weatherAPI2.png'
+import project4 from '../image/projects/beatwave.png'
 
 function Projects() {
     const projects = [
@@ -26,14 +27,23 @@ function Projects() {
             technologies: "JavaScript, React, Node.JS, Axios, Bootstrap"
         },
         {
-            id: "weatherapp",
-            name: "WeatherApp",
-            screenshot: project3,
-            link: "https://weatherapp-2dyu.onrender.com",
-            github: "https://github.com/jchen2190/weatherAPI",
-            description: "Built a weather app that takes in a name of a city and returns the weather forecast and variables of the city location. Uses Open-Meteo Geocoding and Weather Forecast API.",
-            technologies: "JavaScript, EJS, Node.JS"
-        }
+            id: "beatwave",
+            name: "beatWave",
+            screenshot: project4,
+            link: "https://jchen2190.github.io/beatWave/",
+            github: "https://github.com/jchen2190/beatWave",
+            description: "Built an application that takes a song and visualizes the waveforms of the audio as the song plays.",
+            technologies: "JavaScript, p5.js"
+        },
+        // {
+        //     id: "weatherapp",
+        //     name: "WeatherApp",
+        //     screenshot: project3,
+        //     link: "https://weatherapp-2dyu.onrender.com",
+        //     github: "https://github.com/jchen2190/weatherAPI",
+        //     description: "Built a weather app that takes in a name of a city and returns the weather forecast and variables of the city location. Uses Open-Meteo Geocoding and Weather Forecast API.",
+        //     technologies: "JavaScript, EJS, Node.JS"
+        // }
     ]
 
     return (

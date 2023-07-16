@@ -21,13 +21,21 @@ function OtherProjects() {
             technologies: "JavaScript"
         },
         {
-            id: "beatwave",
-            name: "beatWave",
-            link: "https://jchen2190.github.io/beatWave/",
-            github: "https://github.com/jchen2190/beatWave",
-            description: "Built an application that takes a song and visualizes the waveforms of the audio as the song plays.",
-            technologies: "JavaScript, p5.js"
-        }
+            id: "weatherapp",
+            name: "WeatherApp",
+            link: "https://weatherapp-2dyu.onrender.com",
+            github: "https://github.com/jchen2190/weatherAPI",
+            description: "Built a weather app that takes in a name of a city and returns the weather forecast and variables of the city location. Uses Open-Meteo Geocoding and Weather Forecast API.",
+            technologies: "JavaScript, EJS, Node.JS"
+        },
+        // {
+        //     id: "beatwave",
+        //     name: "beatWave",
+        //     link: "https://jchen2190.github.io/beatWave/",
+        //     github: "https://github.com/jchen2190/beatWave",
+        //     description: "Built an application that takes a song and visualizes the waveforms of the audio as the song plays.",
+        //     technologies: "JavaScript, p5.js"
+        // }
     ]
 
     return (
