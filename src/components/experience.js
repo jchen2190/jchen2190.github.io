@@ -5,6 +5,47 @@ import gradCapIcon from '../image/icons/education-cap.svg'
 import hourglassIcon from '../image/icons/hourglass.svg'
 
 function Experience() {
+    const experience = [
+        {
+            id: "nobledesktop",
+            name: "Noble Desktop",
+            title: "Software Developer",
+            description: [
+                "Completed a comprehensive software engineering bootcamp that covered topics such as programming languages (Javascript & Python), data structures and algorithms, web development, and database systems.",
+                "Participated in group projects that emphasized teamwork and problem-solving skills.",
+                "Gained hands-on experience in developing software applications using modern development methodologies and tools.",
+                "Improved technical skills and knowledge through coursework, projects, and collaboration with peers and instructors.",
+            ],
+            icon: laptopIcon
+        },
+        {
+            id: "garg",
+            name: "Garg Consulting Services, Inc.",
+            title: "Engineer",
+            description: [
+                "Conducted site inspections to monitor compliance with building codes and project specifications, resulting in a high rate of on-time project completion.",
+                "Reviewed and approved shop drawings, submittals, and change orders to ensure they met project requirements and standards.",
+                "Conducted quality control tests on materials and equipment to verify their compliance with project specifications and ensured proper installation.",
+                "Trained and supervised junior inspectors to improve their skills and efficiency, resulting in a more streamlined inspection process.",
+                "Collaborated with contractors, architects, engineers, and project managers to resolve design and construction issues and improve processes.",
+                "Maintained accurate and up-to-date records of all inspections, test results, and corrective actions, ensuring full documentation of projects.",
+            ],
+            icon: briefcaseIcon
+        },
+        {
+            id: "umass",
+            name: "University of Massachusetts",
+            title: "Civil Engineer Major",
+            description: [
+                "Completed a 4-year program in Civil Engineering with a focus on designing and constructing buildings, infrastructure, and transportation systems.",
+                "Acquired in-depth knowledge of engineering principles, mathematics, materials science, and computer-aided design.",
+                "Completed various projects and design reports, gaining practical experience in designing and analyzing structures, such as bridges, buildings, and transportation systems.",
+                "Participated in team-based projects, collaborating with peers and instructors, to develop solutions to real-world engineering problems.",
+            ],
+            icon: gradCapIcon
+        },
+    ]
+
     return (  
         <section id="experience">
             <h2 className="title">Experience</h2>
