@@ -15,6 +15,7 @@ import renderLogo from '../image/logo/render.png';
 import pythonLogo from '../image/logo/python.svg';
 import pandasLogo from '../image/logo/pandas.svg';
 import djangoLogo from '../image/logo/django.svg';
+import postgresqlLogo from '../image/logo/postgresql.svg';
 
 import gitbashLogo from '../image/logo/git-bash.svg';
 import githubLogo from '../image/logo/github.svg';
@@ -41,6 +42,7 @@ function Skills() {
         { id: "python", name: "Python", image: pythonLogo },
         { id: "pandas", name: "pandas", image: pandasLogo },
         { id: "django", name: "Django", image: djangoLogo },
+        { id: "postgresql", name: "PostgreSQL", image: postgresqlLogo },
     ]
     const Tools = [
         { id: "gitbash", name: "Git Bash", image: gitbashLogo },
